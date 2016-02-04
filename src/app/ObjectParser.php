@@ -50,10 +50,9 @@ class ObjectParser
 
 		$count = 0;
 		foreach ($main as $key => $value) {
-			$result[$count] = array_search($key, $tags) ? 1 : 0;
+			$result[$count] = array_search($key, $tags) !== false ? 1 : 0;
 			$count++;
 		}
-
 		return $result;
 	}
 
