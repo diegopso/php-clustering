@@ -1,0 +1,12 @@
+{
+    "name": "PHP Clustering",
+    "description": "Clustering algorithm",
+    "minimum-stability" : "dev",
+    "require":      {
+        "webd/vectors":   "dev-master",
+        "webd/clustering": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {"": "src/"}
+    }
+}

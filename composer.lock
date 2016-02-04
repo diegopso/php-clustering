@@ -1,0 +1,100 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "4de4a69de5b5a0e5a81d02ae4ea53a1c",
+    "content-hash": "a206591d786fbb337ed5cf5b4c77a8ff",
+    "packages": [
+        {
+            "name": "webd/clustering",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tdebatty/php-clustering.git",
+                "reference": "f67d77c6dec183b25a1b0e551f4ef56c86684e60"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tdebatty/php-clustering/zipball/f67d77c6dec183b25a1b0e551f4ef56c86684e60",
+                "reference": "f67d77c6dec183b25a1b0e551f4ef56c86684e60",
+                "shasum": ""
+            },
+            "require": {
+                "webd/vectors": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Clustering algorithms",
+            "time": "2014-12-31 10:49:24"
+        },
+        {
+            "name": "webd/stats",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tdebatty/php-stats.git",
+                "reference": "44935d63bd20dded3b8235a38aa7bd4df712aca7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tdebatty/php-stats/zipball/44935d63bd20dded3b8235a38aa7bd4df712aca7",
+                "reference": "44935d63bd20dded3b8235a38aa7bd4df712aca7",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "A library for computing statistics",
+            "time": "2013-08-22 15:35:58"
+        },
+        {
+            "name": "webd/vectors",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tdebatty/php-vector-matrix.git",
+                "reference": "79e8855dfc0d2bec15de24a521a74b32ac5c4dcb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tdebatty/php-vector-matrix/zipball/79e8855dfc0d2bec15de24a521a74b32ac5c4dcb",
+                "reference": "79e8855dfc0d2bec15de24a521a74b32ac5c4dcb",
+                "shasum": ""
+            },
+            "require": {
+                "webd/stats": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "A library for vectors and matrices algebra",
+            "time": "2013-08-21 10:20:05"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "webd/vectors": 20,
+        "webd/clustering": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
